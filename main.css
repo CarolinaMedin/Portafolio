@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    outline: 1px solid rgb(235, 114, 225);
+    
+}
+
+ul{
+    outline: 1px solid black;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    line-height: 40px;
+    
+}
+
+li {
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+a:hover {
+    background-color: rgb(201, 128, 139);;
+    color: white;
+}
