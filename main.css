@@ -34,6 +34,10 @@ a:hover {
     color: white;
 }
 
+.header{
+    text-align: center;
+}
+
 .title{
     text-align: center;
     margin-top: 100px;
@@ -47,6 +51,12 @@ a:hover {
     background-size: 30px;
     justify-content: center;
 }
+
+.characterics{
+    text-align: center;
+}
+
+
 
 .fabicon{
     background-size: 30px;
