@@ -76,3 +76,20 @@ a:hover {
     margin-top:20px; margin-right: 30px; margin-bottom:20px; margin-left: 30px;
     
 }
+
+
+
+/* Imagen de fondo de mi página web.*/
+/* Fuente 1: https://www.lawebdelprogramador.com/codigo/CSS/2344-Anadir-una-imagen-de-fondo-de-pantalla-que-ocupe-todo-el-navegador-con-css3.html*/
+/*Fuente 2: https://es.godaddy.com/blog/imagen-responsive-en-css3-para-el-fondo-de-tu-web/*/
+html {
+    height:100%;
+    width:100%;
+}
+body{
+    background:#8ba987 url('imagenes/mano-robot.jpg') center center;
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+
+ 
