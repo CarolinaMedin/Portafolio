@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background:#51D1F6 url('imagenes/mano-robot.jpg') center center;
+    background:#9b9b9b url('imagenes/mano-robot.jpg') center center;
     background-size:100% 100%;
     background-attachment: fixed;
 }
@@ -92,14 +92,15 @@ html {
 
  
 
-body {
-  background: #51D1F6;  /*#FF0000;*/  /*#050505;*/
-}
+/*body {
+  background: #51D1F6;  /*#FF0000;*/  /*#050505;/
+}*/
 
 .Bienvenida {
   display: inline-block;
+  font-size: 300%;/*150px;*/
   opacity: 0;
-  font: 100px 'Aclonica';/*; arial, sans-serif;*/
+  font: 'Aclonica';/*; arial, sans-serif;*/
   font-family: 'Kalam'; /*, Brush Script MT, Brush Script Std, cursive*/
 }
 
@@ -107,8 +108,28 @@ body {
 .centrar {
 margin-right: auto;
 margin-left: auto;
-color: #FFFFFF;
+color: #FFFFFF; /*#FFFFFF;*/
 margin: auto;
 width: 100%;
 text-align: center;
 }
+
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(156,156,156); /* Fallback color */
+  /*background-color: rgba(0,170,228,0); /* Black w/ opacity */
+  /*background-image: url('imagenes/mano-robot.jpg');*/
+  background-image: url('imagenes/eye_robot.jpg');  /*mano-robot*/
+  background-size:100% 100%;
+  background-attachment: fixed;
+}
+

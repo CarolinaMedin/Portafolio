@@ -14,11 +14,22 @@ function main(){
 	    easing: 'easeInExpo'
 	  }, 
 	  scale: anime.stagger([0.7, 1], {from: 'center'}), 
-	  delay: anime.stagger(100, {start: 1000}), 
+	  delay: anime.stagger(50, {start: 500}), 
 	  translateX: [-10, 30],
-	  direction: 'alternate',
-	  loop: true
+	  // direction: 'alternate',
+	  // loop: true
 	}); 
+
+
+
+
+
+	// Get the modal
+	var modal = document.getElementById("myModal");
+	modal.style.display = "block";
+	setTimeout(function(){
+		modal.style.display = "none";
+	},4000);
 
 }
 
