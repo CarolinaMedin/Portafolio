@@ -1,4 +1,4 @@
-console.log("main")
+
 
 
 // /*Mensaje de Bienvenida*/
@@ -16,12 +16,22 @@ console.log("main")
 // });
 
 
-var lineDrawing = anime({
-  targets: '#lineDrawing .lines path',
-  strokeDashoffset: [anime.setDashoffset, 0],
-  easing: 'easeInOutSine',
-  duration: 3000,
-  delay: function(el, i) { return i * 250 },
-  direction: 'alternate',
-  loop: true
-});
+function main(){
+	// console.log("main")
+
+
+	// Ejecutamos el objeto anime después de cargar la página
+	var lineDrawing = anime({
+	  targets: '#lineDrawing .lines path',
+	  strokeDashoffset: [anime.setDashoffset, 0],
+	  easing: 'easeInOutSine',
+	  duration: 3000,
+	  delay: function(el, i) { return i * 250 },
+	  direction: 'alternate',
+	  loop: true
+	});
+
+}
+
+
+document.addEventListener("DOMContentLoaded", main);
