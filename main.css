@@ -58,6 +58,7 @@ a:hover {
     text-shadow: aliceblue;
     color: #FFFFFF;
     background-size: 100px;
+    text-shadow: 0 1px 0 rgba(5, 215, 252, 0.3);
 }
 
 .title2{
@@ -143,7 +144,7 @@ text-align: center;
 
 
 
-.modal {
+/* .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -159,5 +160,5 @@ text-align: center;
   background-size:100% 100%;
   background-attachment: fixed;
 }
-
+ */
 
