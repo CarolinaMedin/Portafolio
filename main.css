@@ -64,7 +64,8 @@ a:hover {
 .title2{
     text-align: center;
     text-decoration: underline;
-    color: aliceblue;
+    color: blue;
+    font-size: 40px;
 }
 
 .social-red{
@@ -105,24 +106,8 @@ a{
     display: inline-flex;
     width: 90px; height: 90px;
     margin-top:20px; margin-right: 30px; margin-bottom:20px; margin-left: 30px;
-    
 }
 
-
-
-/* Imagen de fondo de mi página web.*/
-/* Fuente 1: https://www.lawebdelprogramador.com/codigo/CSS/2344-Anadir-una-imagen-de-fondo-de-pantalla-que-ocupe-todo-el-navegador-con-css3.html*/
-/*Fuente 2: https://es.godaddy.com/blog/imagen-responsive-en-css3-para-el-fondo-de-tu-web/*/
-html {
-    height:100%;
-    width:100%;
-}
-
- 
-
-/*body {
-  background: #51D1F6;  /*#FF0000;*/  /*#050505;/
-}*/
 
 .Bienvenida {
   display: inline-block;
@@ -133,14 +118,6 @@ html {
 }
 
 
-.centrar {
-margin-right: auto;
-margin-left: auto;
-color: red; /*#FFFFFF;*/
-margin: auto;
-width: 100%;
-text-align: center;
-}
 
 
 
